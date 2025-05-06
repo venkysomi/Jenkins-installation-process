@@ -1,0 +1,34 @@
+apt-get update
+    3  apt-get install default-jdk -y
+    4  apt-get install maven -y
+    5  sudo wget -0 /etc/apt/keyrings/jenkins-keyring.asc \ 
+    6  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+    7  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \ 
+    8  https://pkg.jenkins.io/debian-stable binary/ |  sudo tee \ 
+    9  /etc/apt/sources.list.d/jenkins.list > /dev/null 
+   10  sudo apt-get update 
+   11  sudo apt-get install jenkins
+   12  sudo wget -0 /etc/apt/keyrings/jenkins-keyring.asc \ 
+   13  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+   14  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \ 
+   15  https://pkg.jenkins.io/debian-stable binary/ |  sudo tee \ 
+   16  /etc/apt/sources.list.d/jenkins.list > /dev/null 
+   17  sudo apt-get update 
+   18  sudo apt-get install jenkins
+   19  sudo apt install jenkins -y
+   20  ls
+   21  rm -rf  ' '
+   22  ls
+   23  apt-get update
+   24  mvn -version
+   25  sudo systemctl enable jenkins
+   26  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   27  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   28  sudo apt-get update
+   29  sudo apt-get install jenkins
+   30  sudo systemctl enable jenkins
+   31  sudo systemctl start jenkins
+   32  sudo systemctl status jenkins
+   33  cat This may also be found at: /var/l
+   34  sudo systemctl status jenkins
+   35  cat /var/lib/jenkins/secrets/initialAdminPassword
