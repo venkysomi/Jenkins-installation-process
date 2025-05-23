@@ -1,0 +1,5 @@
+systemctl stop jenkins
+vi /lib/systemd/system/jenkins.service
+systemctl daemon-reload
+systemctl start jenkins
+systemctl status jenkins
